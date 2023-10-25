@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -190px 0 0 -260px;
+    padding: 30px 40px;
+    border: gray solid 2px;
+}
+
+a,a:hover,a:active,a:visited{
+    color: grey;
+}
+
+.hello-text{
+    font-size: 30px;
+}
+
+.username, .go{
+    border: gray solid 2px;
+    font-size: 23px;
+}
+
+.username{
+    width: 150px;
+}
+
+.game-field{
+    border-collapse:collapse;
+    width: 160px;
+    height: 160px;
+    margin: auto
+}
+
+.game-cell{
+    width: 40px;
+    height: 40px;
+    border: gray solid 2px;
+    text-align:center;
+}
+
+.game-cell:hover{
+    background-color: silver;
+}
+
+nav{
+    margin:20px;
+    text-align: center;
+}
